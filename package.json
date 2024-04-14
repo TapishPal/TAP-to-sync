@@ -20,7 +20,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start:front": "react-scripts start",
+    "start:front": "react scripts start",
     "start": "npm run build && npm run server:prod",
     "build": "react-scripts build",
     "server:dev": "nodemon server.js",
@@ -45,8 +45,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.15"
   }
 }
